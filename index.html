@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Portfolio</title>
+    <meta name="description" content="Portfolio for DCIT21A" />
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/Screenshot 2026-01-09 131808-Photoroom.png" type="image/jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./images/1x1withsuit.jpg"
+              alt="1x1withsuit"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Sarah's Portfolio</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+             <li class="header__link-wrapper">
+              <a href="./index.html#skills" class="header__link">Skills </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+             <li class="header__sm-menu-link">
+              <a href="./index.html#skills"> Skills </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, I'm Sarah!</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            <i> I live a life of grace upon grace. </i>
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./index.html#about" class="btn btn--bg">About Me</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/sarah-mae-digman-ab71aa3a5/" class="home-hero__social-icon-link">
+            <img
+              src="./images/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://t.me/sar4mi" class="home-hero__social-icon-link">
+            <img
+              src="./images/telegram-white-icon.webp"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://www.facebook.com/sarahrosel.digman" class="home-hero__social-icon-link">
+            <img
+              src="./images/facebook-app-round-white-icon.webp"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://www.instagram.com/sarahmaetini/" class="home-hero__social-icon-link">
+            <img
+              src="./images/instagram-white-icon.webp"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://discord.com/users/sarahmei.o.i"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./images/discord-white-icon.webp"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About </span>
+          <span class="heading-sec__sub">
+             My name is Sarah Mae Rosel Digman, an 18-year-old currently residing in Trece Martires City, Cavite, Philippines. 
+             I’m also a first-year student at Cavite State University, taking a BS in Computer Science as my program. 
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div id="about-text" class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! It’s Sarah, and I am now in the early stages of my computer science studies. 
+                Although my present talents are not superior because I did not have prior experience before my college years, 
+                I can say that my experiences and current activities have helped me progress. 
+                I am ready to learn and welcome any difficulties that come my way. 
+                Each project and collaboration broadens my knowledge and increases my enthusiasm for technology and problem solving.
+              </p>
+              <p class="about__content-details-para">
+                I’m a fan of stories that push the limits of imagination. 
+                Whether I’m diving into the pages of a comic book or exploring the lush environments of Pandora and the diverse worlds of anime, 
+                I’m constantly inspired by the intersection of art and narrative.
+                Feel free to <strong>download</strong> my <strong>CV</strong> here.
+              </p>
+            </div>
+            <a
+                href="./files/CV.pdf"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                rel="noopener"
+                >Curriculum Vitae</a>
+          </div>
+      </section>
+   <section id="skills" class="skills sec-pad">
+  <div class="main-container">
+    <h2 class="heading-sec">
+      <span class="heading-sec__main">Skills</span>
+    </h2>
+    <body>
+  <section class="skills">
+    <div class="container">
+      <img src="images/1 (2).png" class="top-img" />
+      <img src="images/2 (2).png" class="bottom-img" />
+    </div>
+  </section>
+</body>
+    </section>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Because I had no prior coding expertise, the projects I've included here are large group projects that 
+            my team and I worked on in our last year of senior year.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./images/laptop1.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title"> Capstone Project</h3>
+              <p class="projects__row-content-desc">
+                In our capstone project, I contributed through various research efforts and data analysis techniques. 
+                My focus was on synthesizing information that would enhance our understanding of the project's objectives and drive our findings towards actionable insights; 
+                hence, we made our product called the PenVironment Machine.  
+              </p>
+              <a
+                href="./files/CAPSTONE PROJECT .pdf"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                rel="noopener"
+                >View Here</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./images/laptop2.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Research Paper</h3>
+              <p class="projects__row-content-desc">
+                I was in charge of monitoring and allocating our group members for the research paper related to our capstone project. 
+                Additionally, I was the one who made any necessary revisions to their work. 
+                My role was crucial in ensuring that each member contributed effectively and that the
+                quality of our research met the highest standards. 
+              </p>
+              <a
+                 href="./files/RESEARCH PAPER.pdf"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                rel="noopener"
+                >View Here</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./images/laptop3.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Website</h3>
+              <p class="projects__row-content-desc">
+                This website portfolio is my first project in regard to coding. I aimed to showcase my skills and creativity 
+                through a variety of web design elements. 
+                Each section reflects my journey and growth as a developer, 
+                highlighting both my strengths and areas for improvement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            For any inquiries, you can reach out to me by filling out the form below. 
+            I will respond to your questions as soon as possible. 
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="https://formspree.io/f/mdakqqjl" method="POST" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Socials</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sarah-mae-digman-ab71aa3a5/">
+                <img
+                  class="main-footer__icon"
+                  src="./images/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://t.me/sar4mi">
+                <img
+                  class="main-footer__icon"
+                  src="./images/telegram-white-icon.webp"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/sarahrosel.digman">
+                <img
+                  class="main-footer__icon"
+                  src="./images/facebook-app-round-white-icon.webp"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sarahmaetini/">
+                <img
+                  class="main-footer__icon"
+                  src="./images/instagram-white-icon.webp"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://discord.com/users/sarahmei.o.i">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./images/discord-white-icon.webp"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Sarah Mae R. Digman</h4>
+            <p class="main-footer__short-desc">
+              sarahrsldigman@gmail.com
+              <br> (+63) 915 759 5096
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+         Submitted in partial fulfillment of the requirements for the course of Introduction to Computing (DCIT21A).
+         </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
