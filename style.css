@@ -640,7 +640,7 @@ textarea {
     letter-spacing: 2px;
     transition: color .3s; }
     .header__sm-menu-link a:hover {
-      color: #f6c94d; }
+      color: #f29bb9; }
   .header__sm-menu-link:first-child a {
     border-top: 1px solid #eee; }
   .header__sm-menu-link-last {
@@ -742,3 +742,4 @@ textarea {
     opacity: 0;
 
     top: 27px; } }
+
